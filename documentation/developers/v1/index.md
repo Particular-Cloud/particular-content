@@ -7,23 +7,23 @@ description: Particular.Cloud can be integrated easily with your applications. W
 
 Particular.Cloud can be integrated easily with your applications. We offer SDKs for JavaScript and React to integrate Particular.Cloud into your products and services.
 
-Our command-line interface further integrates your app with the data from Particular.Cloud.
+Our command-line interface (CLI) further integrates your app with the data from Particular.Cloud. The CLI is a great way to integrate Particular.Cloud with existing i18n workflows and SDKs.
 
-Our VS Code extension helps you to quickly refactor your code to i18n translation calls.
-You can upload your strings right from VS Code to your project on Particular.Cloud!
+Our VS Code extension helps you to quickly refactor your code to i18n translation calls. You can upload your strings right from VS Code to your project on Particular.Cloud!
 
-<hr />
+---
 
 ## Integrations
 
-- [Introduction](https://particular.cloud/documentation/developers)
-- [JavaScript](https://particular.cloud/documentation/developers/js)
-- [React](https://particular.cloud/documentation/developers/react)
-- [JavaScript](https://particular.cloud/documentation/developers/cli)
-- [VSCode](https://particular.cloud/documentation/developers/vscode)
-- [REST](https://particular.cloud/documentation/developers/rest)
+- [JavaScript](/documentation/developers/v1/javascript)
+- [React](/documentation/developers/v1/react)
+- [CLI](/documentation/developers/v1/cli)
+- [VSCode](/documentation/developers/v1/vscode)
+- [REST](/documentation/developers/v1/rest)
 
-<hr />
+You can find more [integreation examples and demo applications](https://github.com/Particular-Cloud/particular-integration-examples) on GitHub.
+
+---
 
 ## Missing an integration?
 
@@ -31,7 +31,7 @@ We are working on supporting more ecosystems!
 
 Let us know what you are missing at [@particular.cloud](https://twitter.com/CloudParticular) on Twitter.
 
-In the meantime, maybe our [REST API](https://particular.cloud/documentation/developers/rest) can help you solve your use case?
+In the meantime, maybe our [REST API](/documentation/developers/v1/rest) can help you solve your use case?
 
 ## Create a project
 
@@ -59,7 +59,7 @@ Awesome! 🥳 We are all set!
 
 ### VS Code extension
 
-If you are using VS Code, get yourself the Particular.Cloud [VS Code extension](https://marketplace.visualstudio.com/items?itemName=particular-cloud.particular-cloud) to add some magic to your development workflow!
+Are you integrating our React or JavaScript npm packages? If you are using VS Code, get yourself the Particular.Cloud [VS Code extension](https://marketplace.visualstudio.com/items?itemName=particular-cloud.particular-cloud) to add some magic to your development workflow!
 
 ### Token creation
 
@@ -70,7 +70,7 @@ We distinguish between two different types of tokens:
 - read-only token
 - write-access token
 
-<hr />
+---
 
 ### Read-only token
 
@@ -86,19 +86,21 @@ Generating new tokens is easy: On the [developer portal](https://particular.clou
 
 Find more information based on your use case:
 
-- JavaScript: [init](https://particular.cloud/documentation/developers/js/init) function call
-- React: [I18nProvider](https://particular.cloud/documentation/developers/react/I18nProvider) context-provider props
-- REST: [Authorization header](https://particular.cloud/documentation/developers/rest/) setup
+- [JavaScript](/documentation/developers/v1/javascript)
+- [React](/documentation/developers/v1/react)
+- [CLI](/documentation/developers/v1/cli/)
+- [VSCode](/documentation/developers/v1/vscode/)
+- [REST](/documentation/developers/v1/rest/)
 
 **Note:** Make sure to delete unused tokens to avoid leaking your tokens!
 
-<hr />
+---
 
 ### Write-access token
 
-Write-access token enable the creation of new texts right from your VS Code editor (using the Particular.Cloud [VS Code extension](https://marketplace.visualstudio.com/items?itemName=particular-cloud.particular-cloud)). Try it out, it speed up your localization process immensely! Refactoring applications to integrate i18n was never easier!
+Write-access token enable the creation of new texts right from your VS Code editor. Download the Particular.Cloud [VS Code extension](https://marketplace.visualstudio.com/items?itemName=particular-cloud.particular-cloud)) and try it out! It will speed up your localization process immensely! Refactoring applications to integrate i18n was never easier!
 
-> Write-access token have write-access to your Particular.Cloud project. You shoulder **never** commit your write-access token to a public repository or share it with anyone.
+**❗ IMPORTANT:** Write-access token have write-access to your Particular.Cloud project. You shoulder **never** commit your write-access token to a public repository or share it with anyone.
 
 **Agreed?** Great!
 
@@ -111,7 +113,7 @@ Let's add a `.particularrc.json` file to our project root folder:
   }
 ```
 
-**IMPORTANT ❗:** Hide your secret write-access token by adding the following to your `.gitignore` file:
+**❗ IMPORTANT:** Hide your secret write-access token by adding the following to your `.gitignore` file:
 
 ```bash
 # hide write-access token
