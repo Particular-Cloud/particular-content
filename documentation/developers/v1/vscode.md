@@ -60,7 +60,7 @@ Let's add a `.particularrc.json` file to our project root folder:
 
 Next, go back to your browser window and navigate to the settings page of your [Partiuclar.Cloud](https://particular.cloud) project and create a write-access token.
 
-`video: https://vimeo.com/650518749`
+`video: https://vimeo.com/663837554`
 
 Find more information about how to create tokens in the [developer documentation](/documentation/developers/v1).
 
@@ -93,7 +93,7 @@ We support translation key autocompletion within our [t function](/documentation
 
 Just start typing your key name and select the right key from the autocompletion dropdown! The dropdown also displays the latest texts from Particular.Cloud in your [default language](#defaultlanguage).
 
-`video: https://vimeo.com/575404468`
+`video: https://vimeo.com/663837593`
 
 **🔥 Hot tip:** Use the VS Code built-in key binding `keyhint: [cmd i](to trigger IntelliSense without typing)` to trigger the IntelliSense without typing!
 
@@ -107,7 +107,7 @@ You might have noticed that we also display a "Create new key" action within the
 
 Just type your new key name and click on "Create new key" in the autocompletion dropdown!
 
-`video: https://vimeo.com/575404541`
+`video: https://vimeo.com/663837564`
 
 **🔥 Hot tip:** Use the VS Code built-in key binding `keyhint: [cmd i](to trigger IntelliSense without typing)` to trigger the dropdown in case it does not show up!
 
@@ -119,7 +119,7 @@ Refactor strings to i18n calls! Select the text in your editor that you want to 
 
 Your strings are automatically sent to your Particular.Cloud project! 🚀
 
-`video: https://vimeo.com/575404512`
+`video: https://vimeo.com/663837582`
 
 **🔥 Hot tip:** Use our keybinding! Once you have selected your hard-coded string in your editor, press `keyhint: [cmd shift i](to trigger the refactor command)` to trigger the refactor command.
 
@@ -129,7 +129,7 @@ The [t (translation/text) function](/documentation/developers/v1/javascript-api#
 
 Use our `t` function call snippet to quickly add a `t` call to your code! 🚀
 
-`video: https://vimeo.com/575404468`
+`video: https://vimeo.com/663837593`
 
 ## `useText` code snippet
 
@@ -137,7 +137,7 @@ The [useText hook](/documentation/developers/v1/react-api#usetext) from our `i18
 
 Use our `useText` hook snippet to quickly add new `useText` calls in your application! 🚀
 
-`video: https://vimeo.com/575404435`
+`video: https://vimeo.com/663837628`
 
 ## Don't like the snippets?
 

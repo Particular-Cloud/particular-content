@@ -78,7 +78,7 @@ Our CLI tool requires a read-only token to fetch your texts from Particular.Clou
 
 Generating new tokens is easy: On the [developer portal](https://particular.cloud/dashboard/projects), navigate to the project settings page, and create a read-only token.
 
-`video: https://vimeo.com/575404572`
+`video: https://vimeo.com/663837537`
 
 **Note:** You can commit your **read-only** tokens to public repositories and to your client-side applications without fear.
 
@@ -122,7 +122,7 @@ Let's add a `.particularrc.json` file to our project root folder:
 
 Next, go back to your browser window and navigate to the settings page of your [Partiuclar.Cloud](https://particular.cloud) project and create a write-access token.
 
-`video: https://vimeo.com/650518749`
+`video: https://vimeo.com/663837554`
 
 Did you copy the token to your clipboard? Awesome! Let's replace `<write-access-token>` in the `.particularrc.json` file with your write-access token.
 
